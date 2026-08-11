@@ -48,7 +48,7 @@ Dedicated essay artwork lives under:
 `assets/essays/<essay-number>-<slug>/`
 
 Essay #001 currently uses:
-- `assets/essays/001-abundance-paradox/cover.webp` — full editorial cover used on-site.
-- `assets/essays/001-abundance-paradox/social.webp` — 1200×630 social/Open Graph card used when the essay is shared.
+- `assets/essays/001-abundance-paradox/cover.webp` — archived/master editorial cover.
+- `assets/essays/001-abundance-paradox/social.webp` — 1200×630 Open Graph / X sharing card.
 
-Future essays should follow the same convention so the publication retains a consistent asset structure.
+The full cover is intentionally not embedded in the homepage or article body because it duplicates the on-page title and disrupts the established editorial layout. Future essays can still use dedicated social artwork without forcing that artwork into the reading experience.
