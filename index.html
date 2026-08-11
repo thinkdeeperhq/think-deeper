@@ -1,11 +1,25 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Think Deeper — Bigger Questions. A Clearer Tomorrow.</title>
-<meta name="description" content="Think Deeper explores difficult questions across physics, cosmology, AI, reality and civilisation through evidence, inference and open criticism.">
-<link rel="stylesheet" href="assets/styles.css"></head><body>
+<link rel="stylesheet" href="assets/styles.css"><meta name="description" content="Think Deeper explores difficult questions across physics, cosmology, AI, reality and civilisation through evidence, inference and open criticism.">
+<link rel="canonical" href="https://thinkdeeperhq.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Think Deeper">
+<meta property="og:title" content="Think Deeper — Bigger Questions. A Clearer Tomorrow.">
+<meta property="og:description" content="Think Deeper explores difficult questions across physics, cosmology, AI, reality and civilisation through evidence, inference and open criticism.">
+<meta property="og:url" content="https://thinkdeeperhq.com/">
+<meta property="og:image" content="https://thinkdeeperhq.com/assets/think-deeper-banner.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Think Deeper — Bigger Questions. A Clearer Tomorrow.">
+<meta name="twitter:description" content="Think Deeper explores difficult questions across physics, cosmology, AI, reality and civilisation through evidence, inference and open criticism.">
+<meta name="twitter:image" content="https://thinkdeeperhq.com/assets/think-deeper-banner.webp">
+<meta name="twitter:site" content="@ThinkDeeperHQ">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+</head><body>
 <header class="site-header"><div class="wrap header-inner">
 <a class="brand" href="./"><img src="assets/think-deeper-mark.webp" alt=""><span class="brand-copy"><span class="brand-name">THINK <em>DEEPER</em></span><span class="brand-tag">BIGGER QUESTIONS. A CLEARER TOMORROW.</span></span></a>
-<nav class="nav"><a href="#essays">Essays</a><a href="#experiments">Thought Experiments</a><a href="about.html">About</a><a href="corrections.html">Corrections</a></nav>
+<button class="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav"><a href="#essays">Essays</a><a href="#experiments">Thought Experiments</a><a href="about.html">About</a><a href="corrections.html">Corrections</a></nav>
 </div></header>
 <main>
 <section class="hero-brand"><div class="wrap hero-overlay"><div class="hero-statement"><p>Think Deeper</p><strong>REAL QUESTIONS. REAL SCIENCE. A DEEPER UNDERSTANDING.</strong></div></div></section>
@@ -30,4 +44,16 @@
 <article class="card"><span class="label">Under Investigation</span><h3>If everyone has superintelligence, who has the power?</h3><p>Equal intelligence does not necessarily mean equal agency, infrastructure or authority.</p></article>
 <article class="card"><span class="label">Under Investigation</span><h3>Where does a black hole's rotational energy reside?</h3><p>A question about Kerr black holes, gravitational energy and what spacetime really means.</p></article>
 </div></div></section></main>
-<footer class="footer"><div class="wrap footer-inner"><div class="brandline">THINK DEEPER</div><div>© 2026 · @ThinkDeeperHQ</div></div></footer></body></html>
+<footer class="footer"><div class="wrap footer-inner"><div class="brandline">THINK DEEPER</div><div>© 2026 · @ThinkDeeperHQ</div></div></footer><script>
+document.addEventListener('DOMContentLoaded',function(){
+  const b=document.querySelector('.mobile-nav-toggle');
+  const n=document.querySelector('.nav');
+  if(!b||!n)return;
+  b.addEventListener('click',function(){
+    const open=n.classList.toggle('open');
+    b.setAttribute('aria-expanded',open?'true':'false');
+    b.textContent=open?'×':'☰';
+  });
+  n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='☰';}));
+});
+</script></body></html>

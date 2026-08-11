@@ -2,12 +2,26 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The Abundance Paradox — Think Deeper Essay 001</title>
-<meta name="description" content="If intelligence becomes abundant, what becomes scarce? Think Deeper Essay #001 explores power, validation, oversight, dependency and the shifting bottlenecks of an AI age.">
 <link rel="stylesheet" href="../../assets/styles.css">
+<meta name="description" content="If intelligence becomes abundant, what becomes scarce? Think Deeper Essay #001 explores power, validation, oversight, dependency and shifting constraints in the AI age.">
+<link rel="canonical" href="https://thinkdeeperhq.com/essays/the-abundance-paradox/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Think Deeper">
+<meta property="og:title" content="The Abundance Paradox — Think Deeper Essay 001">
+<meta property="og:description" content="If intelligence becomes abundant, what becomes scarce? Think Deeper Essay #001 explores power, validation, oversight, dependency and shifting constraints in the AI age.">
+<meta property="og:url" content="https://thinkdeeperhq.com/essays/the-abundance-paradox/">
+<meta property="og:image" content="https://thinkdeeperhq.com/assets/think-deeper-banner.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Abundance Paradox — Think Deeper Essay 001">
+<meta name="twitter:description" content="If intelligence becomes abundant, what becomes scarce? Think Deeper Essay #001 explores power, validation, oversight, dependency and shifting constraints in the AI age.">
+<meta name="twitter:image" content="https://thinkdeeperhq.com/assets/think-deeper-banner.webp">
+<meta name="twitter:site" content="@ThinkDeeperHQ">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../../../assets/apple-touch-icon.png">
 </head><body>
 <header class="site-header"><div class="wrap header-inner">
 <a class="brand" href="../../index.html"><img src="../../assets/think-deeper-mark.webp" alt=""><span class="brand-copy"><span class="brand-name">THINK <em>DEEPER</em></span><span class="brand-tag">BIGGER QUESTIONS. A CLEARER TOMORROW.</span></span></a>
-<nav class="nav"><a href="../../index.html#essays">Essays</a><a href="../../index.html#experiments">Thought Experiments</a><a href="../../about.html">About</a><a href="../../corrections.html">Corrections</a></nav></div></header>
+<button class="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav"><a href="../../index.html#essays">Essays</a><a href="../../index.html#experiments">Thought Experiments</a><a href="../../about.html">About</a><a href="../../corrections.html">Corrections</a></nav></div></header>
 
 <main>
 <header class="article-head"><div class="wrap">
@@ -41,4 +55,16 @@
 </main>
 
 <footer class="footer"><div class="wrap footer-inner"><div class="brandline">THINK DEEPER</div><div>© 2026 · @ThinkDeeperHQ</div></div></footer>
-</body></html>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  const b=document.querySelector('.mobile-nav-toggle');
+  const n=document.querySelector('.nav');
+  if(!b||!n)return;
+  b.addEventListener('click',function(){
+    const open=n.classList.toggle('open');
+    b.setAttribute('aria-expanded',open?'true':'false');
+    b.textContent=open?'×':'☰';
+  });
+  n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='☰';}));
+});
+</script></body></html>

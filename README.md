@@ -25,3 +25,18 @@ The site has no framework, database or paid CMS. It is plain HTML/CSS so it can 
 When Essay #002 arrives, we can either:
 - continue with static HTML for maximum simplicity, or
 - migrate the essay content to Markdown using a static-site generator while preserving the visual design and URLs.
+
+
+## Production domain
+Canonical production URL: https://thinkdeeperhq.com
+
+GitHub Pages custom domain:
+`thinkdeeperhq.com`
+
+The repository includes:
+- `CNAME`
+- `robots.txt`
+- `sitemap.xml`
+- canonical metadata
+- Open Graph / X sharing metadata
+- favicon and Apple touch icon assets

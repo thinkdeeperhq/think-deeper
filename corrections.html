@@ -1,10 +1,24 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Corrections — Think Deeper</title><meta name="description" content="A public record of substantive corrections and changed conclusions at Think Deeper.">
-<link rel="stylesheet" href="assets/styles.css"></head><body>
+<title>Corrections — Think Deeper</title><link rel="stylesheet" href="assets/styles.css"><meta name="description" content="A public record of substantive corrections, revised interpretations and changed conclusions at Think Deeper.">
+<link rel="canonical" href="https://thinkdeeperhq.com/corrections.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Think Deeper">
+<meta property="og:title" content="Corrections — Think Deeper">
+<meta property="og:description" content="A public record of substantive corrections, revised interpretations and changed conclusions at Think Deeper.">
+<meta property="og:url" content="https://thinkdeeperhq.com/corrections.html">
+<meta property="og:image" content="https://thinkdeeperhq.com/assets/think-deeper-banner.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Corrections — Think Deeper">
+<meta name="twitter:description" content="A public record of substantive corrections, revised interpretations and changed conclusions at Think Deeper.">
+<meta name="twitter:image" content="https://thinkdeeperhq.com/assets/think-deeper-banner.webp">
+<meta name="twitter:site" content="@ThinkDeeperHQ">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+</head><body>
 <header class="site-header"><div class="wrap header-inner">
 <a class="brand" href="index.html"><img src="assets/think-deeper-mark.webp" alt=""><span class="brand-copy"><span class="brand-name">THINK <em>DEEPER</em></span><span class="brand-tag">BIGGER QUESTIONS. A CLEARER TOMORROW.</span></span></a>
-<nav class="nav"><a href="index.html#essays">Essays</a><a href="index.html#experiments">Thought Experiments</a><a href="about.html">About</a><a href="corrections.html">Corrections</a></nav></div></header>
+<button class="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html#essays">Essays</a><a href="index.html#experiments">Thought Experiments</a><a href="about.html">About</a><a href="corrections.html">Corrections</a></nav></div></header>
 <main class="page"><div class="wrap"><div class="content">
 <p class="kicker">Public record</p><h1>Corrections & changed minds</h1>
 <p class="dek">Good reasoning requires the possibility of being wrong.</p>
@@ -12,4 +26,16 @@
 <div class="version"><time>LAUNCH — AUGUST 2026</time><p>No substantive corrections recorded yet.</p></div>
 </div></div></main>
 <footer class="footer"><div class="wrap footer-inner"><div class="brandline">THINK DEEPER</div><div>© 2026 · @ThinkDeeperHQ</div></div></footer>
-</body></html>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  const b=document.querySelector('.mobile-nav-toggle');
+  const n=document.querySelector('.nav');
+  if(!b||!n)return;
+  b.addEventListener('click',function(){
+    const open=n.classList.toggle('open');
+    b.setAttribute('aria-expanded',open?'true':'false');
+    b.textContent=open?'×':'☰';
+  });
+  n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='☰';}));
+});
+</script></body></html>
