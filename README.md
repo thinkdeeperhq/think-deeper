@@ -40,3 +40,15 @@ The repository includes:
 - canonical metadata
 - Open Graph / X sharing metadata
 - favicon and Apple touch icon assets
+
+
+## Essay artwork convention
+Dedicated essay artwork lives under:
+
+`assets/essays/<essay-number>-<slug>/`
+
+Essay #001 currently uses:
+- `assets/essays/001-abundance-paradox/cover.webp` — full editorial cover used on-site.
+- `assets/essays/001-abundance-paradox/social.webp` — 1200×630 social/Open Graph card used when the essay is shared.
+
+Future essays should follow the same convention so the publication retains a consistent asset structure.
