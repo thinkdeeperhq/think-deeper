@@ -52,3 +52,16 @@ Essay #001 currently uses:
 - `assets/essays/001-abundance-paradox/social.webp` — 1200×630 Open Graph / X sharing card.
 
 The full cover is intentionally not embedded in the homepage or article body because it duplicates the on-page title and disrupts the established editorial layout. Future essays can still use dedicated social artwork without forcing that artwork into the reading experience.
+
+
+## Publication metadata
+The homepage includes Schema.org `WebSite` and `Organization` JSON-LD.
+Essay #001 includes Schema.org `Article` JSON-LD and a visible publication date.
+
+Essay #001:
+- Published: 12 August 2026
+- Author/publisher identity: Think Deeper
+- Language: en-GB
+- Canonical URL: https://thinkdeeperhq.com/essays/the-abundance-paradox/
+
+For future substantive revisions, update `dateModified` while preserving `datePublished`. Material corrections should also be recorded on the Corrections page.
