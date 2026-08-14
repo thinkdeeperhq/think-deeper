@@ -282,3 +282,11 @@ a{color:inherit}
 .essay-nav{margin:56px 0 34px;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-family:Arial,sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
 .essay-nav a{color:var(--cyan2);text-decoration:none}
 @media(max-width:600px){.essay-hero{width:calc(100% - 28px);margin-top:28px}.essay-list{gap:34px}.essay-previous{padding-top:28px}}
+
+/* Essay 002 final mobile title correction */
+@media(max-width:600px){
+  .article-head h1{
+    font-size:clamp(42px,11.5vw,58px);
+    line-height:.98;
+  }
+}
